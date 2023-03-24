@@ -17,7 +17,7 @@
     "underscore": "^1.12.1"
   },
   "scripts": {
-    "build": "node-gyp rebuild",
+    "build": "node-gyp rebuild --target_platform=linux",
     "test": "node test/runner.js",
     "postinstall": "node bin/postinstall.js"
   },
